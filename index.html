@@ -1,71 +1,58 @@
-<!-- 17t/09/2024 - 18:00 -->
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title> Rebeca Rieper da Silva | WDD130</title>
-    <meta name="description" content="Rebeca Rieper website for WDD130 perssonal portfolio">
+    <title> WDD 131 – Dynamic Web Fundamentals - Rebeca Rieper da Silva</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Rebeca Rieper da Silva">
     <meta name="author" content="Rebeca Rieper da Silva">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style/base.css">
+    <script src="scripts/getdates.js" defer></script>
 
 </head>
 
 <body>
+
     <header>
+        <span id="course-title">WDD 131 – Dynamic Web Fundamentals - Rebeca Rieper da Silva</span>
 
-        <nav>
-            <a href="index.html">home</a>
-            <a href="wwr/index.html">Rafting Site</a>
-            <a href="https://www.linkedin.com/in/rebeca-rieper-da-silva-888572200/" target="_blank"
-                rel="noopener noreferrer">linkedin</a>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-        </nav>
+    <nav>
+        <a href="https://www.linkedin.com/in/rebeca-rieper-da-silva-888572200/">LinkedIn</a>
+        <a href="https://byupw.instructure.com/">Canvas</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng">Scripture</a>
+        <a href="#">Final Project</a>
+    </nav>
 
+    <main>
+    <section class="card">
+      <h2>About Me</h2>
+      <img src="images/profile.png" alt="Portrait of Rebeca Rieper">
+      <p>
+        I’m a curious, dedicated, and passionate learner who enjoys challenges.
+
+      <h2>Brazil</h2>
+      <img src="images/bandeirabrazil.webp" alt="Brazil">
+      <p>
+        Brazil is the largest country in South America, known for its rich cultural and natural diversity. 🇧🇷
+It’s home to the Amazon Rainforest, beautiful beaches, and a warm, creative people.
+Brazilian culture is vibrant, highlighted by samba, carnival, and soccer.
+Despite its challenges, Brazil is a land of joy, hope, and great opportunities.
+      </p>
+    </section>
+    <section class="card">
+            <h2>Web Dev Resourses</h2>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </section>
+    </main>
     </header>
-    <div class="grid">
-
-        <div class="grid">
-            <aside class="box">
-                <h2>Joinville</h2>
-                <img src="images/joinville.jpg" alt="joinville, Santa Catarina">
-                <p>Santa Catarina is a state in southern Brazil, famous for its stunning beaches, lush mountains, and
-                    vibrant
-                    culture. One of its main cities is Joinville, known as the 'City of Flowers' and 'Dance Capital of
-                    Brazil.'
-                    Joinville
-                    combines strong European heritage, rich cultural traditions, and a thriving industrial economy,
-                    making
-                    it a
-                    unique and
-                    dynamic place to live and visit</p>
-
-        </div>
-        <main>
-            <h1> Rebeca Rieper da Silva | WDD130</h1>
-            <img src="images/profile.png" alt="Hello I am Rebeca Rieper da Silva">
-            <p>Hello, my name is Rebeca Rieper da Silva. I'm 26 years old and I'm from Brazil. I have a degree in
-                Graphic
-                Design and
-                experience in visual creation, social media, video editing, and event organization. I love to travel and
-                learn about new
-                cultures. In my free time, I enjoy hiking, reading, and spending time with my friends and family.</p>
-            <ul class="box">
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/curitiba-brazil-temple?lang=eng"
-                        target="_blank">Curitiba Temple</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/asuncion-paraguay-temple?lang=eng"
-                        target="_blank">Paraguay Temple</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/provo-city-center-temple?lang=eng"
-                        target="_blank">City Center Temple</a></li>
-            </ul>
-        </main>
-    </div>
-
 </body>
-<footer>
-    <p>©2025 | Rebeca Rieper | Joinville, Santa Catarina, Brasil</p>
 
+<footer>
+    <p><span id="currentyear"></span> Rebeca Rieper - Joinville, Santa Catarina, Brasil</p>
+    <p id="lastModified"></p>
 </footer>
 
 </html>

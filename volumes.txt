@@ -1,0 +1,11 @@
+2025-11-01, 45, 76, 45, 5.69
+2025-11-01, 45, 343, 43, 27.20
+Customer phone: 43343432
+2025-11-01, 343, 434, 43, 4139.86
+Customer phone: 43
+Customer phone: 545433
+Customer name: rebeca
+Customer city: joinville
+Customer phone: 54543
+Customer name: 4343
+Customer city: 4fffd
