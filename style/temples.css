@@ -13,6 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
 }
 
 nav {
@@ -35,6 +36,27 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: var(--accent-color);
 }
 
 header h1 {
